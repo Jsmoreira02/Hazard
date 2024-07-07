@@ -1,0 +1,11 @@
+[package]
+name = "modes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ftp-client = "0.1.2"
+ssh2 = "0.9.4"
+libc = "0.2.155"
+pavao = "0.2.6"
+diesel = { version = "2.1.6", features = ["postgres", "mysql"] }
