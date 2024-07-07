@@ -19,7 +19,7 @@ Hazard is dictionary bruteforce tool, built for a simple and user-friendly inter
 ## Usage:
 ***Example:*** `hazard ssh -t targetIP -f ../../rockyou.txt --showPasswords -n 10`
 
-![Kooha-2024-07-07-05-41-57](https://github.com/Jsmoreira02/Hazard/assets/103542430/e65a0a5b-856c-40db-8e6c-dd4466207900)
+![HazardUsage](https://github.com/Jsmoreira02/Hazard/assets/103542430/e5f6760d-f96a-44dc-89fd-70736829ad5c)
 
 
 ## Installation:
