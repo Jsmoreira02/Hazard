@@ -1,0 +1,22 @@
+[workspace]
+members = [
+    "utils/display",
+    "utils/file",
+    "utils/modes"
+]
+
+[package]
+name = "hazard"
+version = "0.1.0"
+edition = "2021"
+authors = ["me"]
+
+[dependencies]
+indicatif = "0.17.8"
+threadpool = "1.8.1"
+display = { path = "utils/display" }
+file = { path = "utils/file" }
+modes = { path = "utils/modes" }
+arguments = { path = "utils/arguments" }
+colored = "2.1.0"
+pavao = "0.2.6"
