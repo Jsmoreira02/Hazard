@@ -1,7 +1,7 @@
 <div>
     <img src="https://img.shields.io/badge/Language%20-Rust-orange.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Target OS%20-Linux, Windows-blue.svg" style="max-width: 100%;">
-    <img src="https://img.shields.io/badge/Cargo builds%20ftp_client, ssh2, pavao, diesel-beige.svg" style="max-width: 100%;">
+    <img src="https://img.shields.io/badge/Cargo builds%20-ftp_client, ssh2, pavao, diesel-beige.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Type%20-Network Protocol, Bruteforce Exploit-black.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Command Line tools%20-teste?style=flat-square style="max-width: 100%;">
 </div>
