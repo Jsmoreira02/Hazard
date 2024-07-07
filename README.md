@@ -33,7 +33,7 @@ Hazard is dictionary bruteforce tool, built for a simple and user-friendly inter
 or
 
 ```bash
-  cargo install --git https://github.com//Jsmoreira02/hazard.git Hazard
+  cargo install --git https://github.com//Jsmoreira02/Hazard.git Hazard
 ```
 
 ## More info:
