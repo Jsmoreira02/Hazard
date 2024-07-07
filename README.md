@@ -25,7 +25,7 @@ Hazard is dictionary bruteforce tool, built for a simple and user-friendly inter
 ## Installation:
 
 ```bash
-  git clone https://github.com//Jsmoreira02/Hazard.git
+  git clone https://github.com/Jsmoreira02/Hazard.git
   cd Hazard
   cargo build --release --manifest-path Cargo.toml --target-dir .
 ```
@@ -33,7 +33,7 @@ Hazard is dictionary bruteforce tool, built for a simple and user-friendly inter
 or
 
 ```bash
-  cargo install --git https://github.com//Jsmoreira02/Hazard.git Hazard
+  cargo install --git https://github.com/Jsmoreira02/Hazard.git Hazard
 ```
 
 ## More info:
