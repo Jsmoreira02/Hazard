@@ -1,8 +1,11 @@
+![Captura_de_imagem_20240707_125436-removebg-preview](https://github.com/Jsmoreira02/Hazard/assets/103542430/c2f4971c-aa5b-4eff-9cd5-c9be68aeb223)
+
+
 <div>
     <img src="https://img.shields.io/badge/Language%20-Rust-orange.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Target OS%20-Linux, Windows-blue.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Cargo builds%20-ftp_client, ssh2, pavao, diesel-beige.svg" style="max-width: 100%;">
-    <img src="https://img.shields.io/badge/Type%20-Network Protocol, Bruteforce Exploit-black.svg" style="max-width: 100%;">
+    <img src="https://img.shields.io/badge/Type%20-Network, Bruteforce Exploit-black.svg" style="max-width: 100%;">
     <img src="https://img.shields.io/badge/Command Line tools%20-teste?style=flat-square style="max-width: 100%;">
 </div>
 
@@ -13,8 +16,10 @@ Hazard is dictionary bruteforce tool, built for a simple and user-friendly inter
 > "A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys. It is a simple yet reliable tactic for gaining unauthorized access to individual accounts and organizations’ systems and networks. The hacker tries multiple usernames and passwords, often using a computer to test a wide range of combinations, until they find the correct login information."
 
 
-##Usage:
+## Usage:
 ***Example:*** `hazard ssh -t targetIP -f ../../rockyou.txt --showPasswords -n 10`
+
+![Kooha-2024-07-07-05-41-57](https://github.com/Jsmoreira02/Hazard/assets/103542430/e65a0a5b-856c-40db-8e6c-dd4466207900)
 
 
 ## Installation:
