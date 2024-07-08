@@ -17,17 +17,17 @@ detect_distro() {
 # Function for installing packages on Debian/Ubuntu-based distributions
 install_debian() {
     sudo apt-get update
-    sudo apt-get install -y pkg-config libssl-dev libmariadb-dev libsmbclient-dev libsmbclient libpq-dev
+    sudo apt-get install -y pkg-config libssl-dev libmariadb-dev libmysqld-dev libsmbclient-dev libsmbclient libpq-dev
 }
 
 # Function for installing packages on Fedora/RHEL-based distributions
 install_rhel() {
-    sudo dnf install -y pkg-config openssl-devel mariadb-devel libsmbclient-devel libsmbclient postgresql-devel
+    sudo dnf install -y pkg-config openssl-devel mariadb-devel mysql-devel libsmbclient-devel libsmbclient postgresql-devel
 }
 
 # Function for installing packages on Arch Linux-based distributions
 install_arch() {
-    sudo pacman -Sy --needed pkg-config openssl mariadb smbclient postgresql-libs
+    sudo pacman -Sy --needed pkg-config openssl mariadb mysql smbclient postgresql-libs
 }
 
 # Detects the Linux distribution
@@ -54,3 +54,5 @@ case $DISTRO in
 esac
 
 echo "Installation completed."
+
+cargo install --git https://github.com/Jsmoreira02/Hazard.git
