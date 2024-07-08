@@ -36,6 +36,20 @@ or
   curl -o install_dependecies.sh https://raw.githubusercontent.com/Jsmoreira02/Hazard/main/install_dependecies.sh && bash install_dependecies.sh
 ```
 
+## Requirements:
+**Debian/Ubuntu-based distributions**
+```bash
+sudo apt-get install -y pkg-config libssl-dev libmariadb-dev libmysqld-dev libsmbclient-dev libsmbclient libpq-dev
+```
+**Fedora/RHEL-based distributions**
+```bash
+sudo dnf install -y pkg-config openssl-devel mariadb-devel mysql-devel libsmbclient-devel libsmbclient postgresql-devel
+```
+**Arch Linux-based distributions**
+```bash
+sudo pacman -Sy --needed pkg-config openssl mariadb mysql smbclient postgresql-libs
+```
+
 ## More info:
 
 - **Colored Documentation** => [Colored](https://crates.io/crates/colored)
