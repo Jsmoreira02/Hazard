@@ -27,12 +27,14 @@ Hazard is dictionary bruteforce tool, built for a simple and user-friendly inter
 ```bash
   git clone https://github.com/Jsmoreira02/Hazard.git
   cd Hazard
+  bash install_dependecies.sh
   cargo build --release --manifest-path Cargo.toml --target-dir .
 ```
 
 or
 
 ```bash
+  curl -o install_dependecies.sh https://raw.githubusercontent.com/Jsmoreira02/Hazard/main/install_dependecies.sh && bash install_dependecies.sh
   cargo install --git https://github.com/Jsmoreira02/Hazard.git
 ```
 
