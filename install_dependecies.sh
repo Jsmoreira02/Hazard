@@ -17,7 +17,7 @@ detect_distro() {
 # Function for installing packages on Debian/Ubuntu-based distributions
 install_debian() {
     sudo apt-get update
-    sudo apt-get install -y pkg-config libssl-dev libmysqlclient-dev libmariadb-dev libmysqld-dev libsmbclient-dev libsmbclient libpq-dev
+    sudo apt-get install -y pkg-config libssl-dev libmariadb-dev libmysqld-dev libsmbclient-dev libsmbclient libpq-dev
 }
 
 # Function for installing packages on Fedora/RHEL-based distributions
