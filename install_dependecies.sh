@@ -22,7 +22,7 @@ install_debian() {
 
 # Function for installing packages on Fedora/RHEL-based distributions
 install_rhel() {
-    sudo dnf install -y pkg-config openssl-devel mariadb-devel mysql-devel libsmbclient-devel libsmbclient postgresql-devel
+    sudo dnf install -y pkg-config openssl-devel mariadb-devel mysql-devel libsmbclient-devel libsmbclient postgresql-devel --skip-broken --allowerasing
 }
 
 # Function for installing packages on Arch Linux-based distributions
